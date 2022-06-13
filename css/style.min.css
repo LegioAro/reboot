@@ -1328,7 +1328,7 @@ body.lock {
 }
 .jump__info {
   padding-left: 45px;
-  z-index: 2;
+  z-index: 3;
   position: relative;
   width: fit-content;
 }
@@ -2186,6 +2186,7 @@ body.lock {
 }
 @media (max-width: 450px) {
   .modal {
+    min-height: 631px;
     padding: 80px 15px 60px;
   }
   .modal__title {
@@ -2195,7 +2196,7 @@ body.lock {
     font-size: 18px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .modal {
     padding: 80px 10px 60px;
   }

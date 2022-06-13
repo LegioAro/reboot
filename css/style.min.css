@@ -258,6 +258,7 @@ body.lock {
 }
 .cover__title {
   font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   color: #f7f500;
@@ -274,6 +275,7 @@ body.lock {
   -webkit-text-stroke: 1px #f7f500;
   text-stroke: 1px #f7f500;
   font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   color: rgba(0, 0, 0, 0);
@@ -286,6 +288,7 @@ body.lock {
 }
 .cover__title-shadow p {
   font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   background: linear-gradient(180deg, #03032b 0%, rgba(255, 255, 255, 0) 100%);
@@ -592,7 +595,8 @@ body.lock {
   line-height: 110%;
   color: #f7f500;
   margin-bottom: 10px;
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   position: relative;
 }
 .questions__info-title::after {
@@ -714,7 +718,8 @@ body.lock {
   font-size: 68px;
   line-height: 110%;
   color: #f7f500;
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   text-align: center;
   margin-bottom: 45px;
 }
@@ -1112,7 +1117,8 @@ body.lock {
   font-size: 40px;
   line-height: 130%;
   text-transform: uppercase;
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   margin-bottom: 120px;
   text-align: center;
   position: relative;
@@ -1138,7 +1144,8 @@ body.lock {
   position: relative;
 }
 .timetable__item-title-block {
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   text-align: center;
   text-transform: uppercase;
   top: -55px;
@@ -1361,7 +1368,8 @@ body.lock {
   font-size: 46.6445px;
   line-height: 110%;
   text-transform: uppercase;
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   margin-bottom: 10px;
 }
 .jump__title span {
@@ -1475,7 +1483,8 @@ body.lock {
   line-height: 100%;
   text-transform: uppercase;
   color: #f7f500;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   width: fit-content;
   margin-bottom: 30px;
 }
@@ -1644,7 +1653,8 @@ body.lock {
   grid-gap: 40px;
 }
 .description__list-item-num {
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 112.412px;
   line-height: 100%;
   text-transform: uppercase;
@@ -1819,7 +1829,8 @@ body.lock {
 .footer__info-title-bg p {
   -webkit-text-stroke: 1px #f7f500;
   text-stroke: 1px #f7f500;
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   color: rgba(0, 0, 0, 0);
@@ -1831,7 +1842,8 @@ body.lock {
   top: 11px;
 }
 .footer__info-title-shadow p {
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   background: linear-gradient(180deg, #03032b 20%, rgba(255, 255, 255, 0) 100%);
@@ -1840,7 +1852,8 @@ body.lock {
   color: transparent;
 }
 .footer__info-title {
-  font-family: "FuturaPTExtraItalic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   font-size: 104.536px;
   line-height: 90%;
   color: #f7f500;

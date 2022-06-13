@@ -526,6 +526,9 @@ body.lock {
   .cover__title-block-name {
     font-size: 16px;
   }
+  .cover__info br {
+    display: none;
+  }
 }
 @media (max-width: 460px) {
   .cover__date {

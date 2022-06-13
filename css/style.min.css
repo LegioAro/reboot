@@ -97,13 +97,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @font-face {
   font-family: "FuturaPTExtra";
-  src: url("../fonts/FuturaPT-ExtraBold.woff") format("woff");
+  src: url("../fonts/FuturaPT-ExtraBold.eot");
+  src: local("../fonts/Futura PT Extra Bold"), local("../fonts/FuturaPT-ExtraBold"), url("../fonts/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "FuturaPTExtraItalic";
-  src: url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff");
+  src: url("../fonts/FuturaPT-ExtraBoldObl.eot");
+  src: local("../fonts/Futura PT Extra Bold Oblique"), local("../fonts/FuturaPT-ExtraBoldObl"), url("../fonts/FuturaPT-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }

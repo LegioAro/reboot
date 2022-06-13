@@ -62,6 +62,7 @@ input[type=number]::-webkit-outer-spin-button {
 @font-face {
   font-family: "GothamProBlack";
   src: url("../fonts/GothamPro-Black.eot");
+  src: url("../fonts/GothamPro-Black.eot");
   src: local("../fonts/Gotham Pro Black"), local("../fonts/GothamPro-Black"), url("../fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
@@ -96,15 +97,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @font-face {
   font-family: "FuturaPTExtra";
-  src: url("../fonts/FuturaPT-ExtraBold.eot");
-  src: local("../fonts/Futura PT Extra Bold"), local("../fonts/FuturaPT-ExtraBold"), url("../fonts/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/FuturaPT-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "FuturaPTExtraItalic";
-  src: url("../fonts/FuturaPT-ExtraBoldObl.eot");
-  src: local("../fonts/Futura PT Extra Bold Oblique"), local("../fonts/FuturaPT-ExtraBoldObl"), url("../fonts/FuturaPT-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype");
+  src: url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -237,7 +236,7 @@ body.lock {
   line-height: 125%;
 }
 .cover__date-info span {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .cover__title-block {
   margin-bottom: 50px;
@@ -304,7 +303,7 @@ body.lock {
   -webkit-clip-path: polygon(15px 0%, 100% 0, calc(100% - 15px) 100%, 0 100%);
   clip-path: polygon(15px 0%, 100% 0, calc(100% - 15px) 100%, 0 100%);
   padding: 3px 28px;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   width: fit-content;
   background-color: #05d8e8;
   font-size: 21.5241px;
@@ -362,7 +361,7 @@ body.lock {
   background-image: linear-gradient(90deg, rgba(3, 3, 43, 0.75) 20%, rgba(255, 255, 255, 0) 100.09%);
 }
 .cover__info span {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   color: #05d8e8;
 }
 .cover__info p {
@@ -395,13 +394,13 @@ body.lock {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Futura PT Medium", sans-serif;
+  font-family: "FuturaPTMedium", sans-serif;
   font-style: italic;
   font-size: 21.4407px;
   line-height: 125%;
 }
 .cover__description span {
-  font-family: "Futura PT Extra", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
 }
 .cover__decor {
   position: absolute;
@@ -585,7 +584,7 @@ body.lock {
   line-height: 110%;
   color: #f7f500;
   margin-bottom: 10px;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   position: relative;
 }
 .questions__info-title::after {
@@ -606,7 +605,7 @@ body.lock {
   max-width: 600px;
   font-size: 23px;
   line-height: 145%;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   margin-bottom: 60px;
 }
 .questions__info-text {
@@ -619,7 +618,7 @@ body.lock {
   line-height: 145%;
 }
 .questions__info-text span {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .questions__info-decor {
   position: absolute;
@@ -707,7 +706,7 @@ body.lock {
   font-size: 68px;
   line-height: 110%;
   color: #f7f500;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   text-align: center;
   margin-bottom: 45px;
 }
@@ -737,7 +736,7 @@ body.lock {
   font-size: 27.6541px;
   line-height: 145%;
   text-transform: uppercase;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .now__info-title-text span {
   color: #f7f500;
@@ -760,10 +759,10 @@ body.lock {
   line-height: 165%;
 }
 .now__info-text b {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .now__info-text span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
   color: #000000;
   background-color: #fff;
 }
@@ -889,7 +888,7 @@ body.lock {
   text-align: center;
 }
 .who__title-text span {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .who__descriptions {
   display: grid;
@@ -919,7 +918,7 @@ body.lock {
   line-height: 145%;
 }
 .who__description-text span {
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
 }
 .who__text {
   font-size: 25px;
@@ -935,7 +934,7 @@ body.lock {
 .who__text span {
   font-size: 40px;
   line-height: 125%;
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
 }
 .who__items {
   display: grid;
@@ -954,7 +953,7 @@ body.lock {
   font-size: 39.4537px;
   line-height: 130%;
   color: #ff296d;
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
   margin-bottom: 5px;
 }
 .who__item-text {
@@ -1105,7 +1104,7 @@ body.lock {
   font-size: 40px;
   line-height: 130%;
   text-transform: uppercase;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   margin-bottom: 120px;
   text-align: center;
   position: relative;
@@ -1131,7 +1130,7 @@ body.lock {
   position: relative;
 }
 .timetable__item-title-block {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   text-align: center;
   text-transform: uppercase;
   top: -55px;
@@ -1203,7 +1202,7 @@ body.lock {
   line-height: 145%;
 }
 .timetable__item-list-desc-text span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
 }
 .timetable__btn-block {
   display: flex;
@@ -1354,7 +1353,7 @@ body.lock {
   font-size: 46.6445px;
   line-height: 110%;
   text-transform: uppercase;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   margin-bottom: 10px;
 }
 .jump__title span {
@@ -1367,7 +1366,7 @@ body.lock {
   max-width: 650px;
 }
 .jump__text span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
   display: inline-flex;
   position: relative;
 }
@@ -1560,7 +1559,7 @@ body.lock {
   -webkit-clip-path: polygon(15px 0%, 100% 0, calc(100% - 15px) 100%, 0 100%);
   clip-path: polygon(15px 0%, 100% 0, calc(100% - 15px) 100%, 0 100%);
   padding: 0px 28px;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   width: fit-content;
   background-color: #05d8e8;
   font-size: 41.4079px;
@@ -1573,7 +1572,7 @@ body.lock {
 }
 .description__info-title {
   font-size: 41.4079px;
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
   line-height: 125%;
   margin-bottom: 25px;
   position: relative;
@@ -1588,7 +1587,7 @@ body.lock {
   z-index: 1;
 }
 .description__info-text span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
 }
 .description__info-alert {
   padding: 20px 25px;
@@ -1598,7 +1597,7 @@ body.lock {
   margin-bottom: 30px;
   font-size: 24px;
   line-height: 125%;
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
   position: relative;
   z-index: 1;
 }
@@ -1628,7 +1627,7 @@ body.lock {
   margin: 0 10px;
 }
 .description__list-title-text span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
 }
 .description__list-items {
   display: grid;
@@ -1637,7 +1636,7 @@ body.lock {
   grid-gap: 40px;
 }
 .description__list-item-num {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 112.412px;
   line-height: 100%;
   text-transform: uppercase;
@@ -1649,7 +1648,7 @@ body.lock {
   padding-left: 25px;
   font-size: 22px;
   line-height: 110%;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   margin-bottom: 7px;
 }
 .description__list-item-text {
@@ -1797,7 +1796,7 @@ body.lock {
   margin-bottom: 10px;
 }
 .footer__info-subtitle span {
-  font-family: "Gotham Pro Black", sans-serif;
+  font-family: "GothamProBlack", sans-serif;
 }
 .footer__info-title-block {
   margin-bottom: 30px;
@@ -1812,7 +1811,7 @@ body.lock {
 .footer__info-title-bg p {
   -webkit-text-stroke: 1px #f7f500;
   text-stroke: 1px #f7f500;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   color: rgba(0, 0, 0, 0);
@@ -1824,7 +1823,7 @@ body.lock {
   top: 11px;
 }
 .footer__info-title-shadow p {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   background: linear-gradient(180deg, #03032b 20%, rgba(255, 255, 255, 0) 100%);
@@ -1833,7 +1832,7 @@ body.lock {
   color: transparent;
 }
 .footer__info-title {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   color: #f7f500;

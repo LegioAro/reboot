@@ -46,70 +46,70 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @font-face {
-  font-family: "Gotham Pro Medium";
+  font-family: "GothamProMedium";
   src: url("../fonts/GothamPro-Medium.eot");
   src: local("../fonts/Gotham Pro Medium"), local("../fonts/GothamPro-Medium"), url("../fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gotham Pro Bold";
+  font-family: "GothamProBold";
   src: url("../fonts/GothamPro-Bold.eot");
   src: local("../fonts/Gotham Pro Bold"), local("../fonts/GothamPro-Bold"), url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gotham Pro Black";
+  font-family: "GothamProBlack";
   src: url("../fonts/GothamPro-Black.eot");
   src: local("../fonts/Gotham Pro Black"), local("../fonts/GothamPro-Black"), url("../fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gotham Pro Black Italic";
+  font-family: "GothamProBlackItalic";
   src: url("../fonts/GothamPro-BlackItalic.eot");
   src: local("../fonts/Gotham Pro Black Italic"), local("../fonts/GothamPro-BlackItalic"), url("../fonts/GothamPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-BlackItalic.woff") format("woff"), url("../fonts/GothamPro-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
-  font-family: "Gotham Pro Bold Italic";
+  font-family: "GothamProBoldItalic";
   src: url("../fonts/GothamPro-BoldItalic.eot");
   src: local("Gotham Pro Bold Italic"), local("../fonts/GothamPro-BoldItalic"), url("../fonts/GothamPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-BoldItalic.woff") format("woff"), url("../fonts/GothamPro-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
-  font-family: "Gotham Pro";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro.eot");
   src: local("Gotham Pro"), local("GothamPro"), url("../fonts/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro.woff") format("woff"), url("../fonts/GothamPro.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Futura PT Medium";
+  font-family: "FuturaPTMedium";
   src: url("../fonts/FuturaPT-Medium.eot");
   src: local("../fonts/Futura PT Medium"), local("../fonts/FuturaPT-Medium"), url("../fonts/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Futura PT Extra";
+  font-family: "FuturaPTExtra";
   src: url("../fonts/FuturaPT-ExtraBold.eot");
   src: local("../fonts/Futura PT Extra Bold"), local("../fonts/FuturaPT-ExtraBold"), url("../fonts/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "Futura PT Extra Italic";
+  font-family: "FuturaPTExtraItalic";
   src: url("../fonts/FuturaPT-ExtraBoldObl.eot");
   src: local("../fonts/Futura PT Extra Bold Oblique"), local("../fonts/FuturaPT-ExtraBoldObl"), url("../fonts/FuturaPT-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
-  font-family: "Futura PT Italic";
+  font-family: "FuturaPTItalic";
   src: url("../fonts/FuturaPT-BoldObl.eot");
   src: local("../fonts/Futura PT Bold Oblique"), local("../fonts/FuturaPT-BoldObl"), url("../fonts/FuturaPT-BoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-BoldObl.woff") format("woff"), url("../fonts/FuturaPT-BoldObl.ttf") format("truetype");
   font-weight: bold;
@@ -256,7 +256,7 @@ body.lock {
   width: fit-content;
 }
 .cover__title {
-  font-family: "Futura PT Extra Italic";
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   color: #f7f500;
@@ -272,7 +272,7 @@ body.lock {
 .cover__title-bg p {
   -webkit-text-stroke: 1px #f7f500;
   text-stroke: 1px #f7f500;
-  font-family: "Futura PT Extra Italic";
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   color: rgba(0, 0, 0, 0);
@@ -284,7 +284,7 @@ body.lock {
   top: 11px;
 }
 .cover__title-shadow p {
-  font-family: "Futura PT Extra Italic";
+  font-family: "FuturaPTExtraItalic", sans-serif;
   font-size: 104.536px;
   line-height: 90%;
   background: linear-gradient(180deg, #03032b 0%, rgba(255, 255, 255, 0) 100%);

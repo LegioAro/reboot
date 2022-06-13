@@ -1091,6 +1091,11 @@ body.lock {
     flex-grow: 1;
   }
 }
+@media (max-width: 768px) {
+  .who__description-text br {
+    display: none;
+  }
+}
 @media (max-width: 550px) {
   .who__title-text {
     margin: 0;
@@ -1935,6 +1940,10 @@ body.lock {
   .footer__info-desc {
     margin: 0 auto 125px;
     text-align: left;
+    max-width: 520px;
+  }
+  .footer__info-desc br {
+    display: none;
   }
   .footer__img {
     width: 400px;
@@ -1987,6 +1996,11 @@ body.lock {
 @media (max-width: 460px) {
   .btn {
     font-size: 16px;
+  }
+}
+@media (max-width: 374px) {
+  .btn {
+    padding: 23.5px 20px;
   }
 }
 .timer {
@@ -2213,6 +2227,12 @@ body.lock {
     width: 38px;
   }
 }
+@media (max-width: 650px) {
+  .modal .btn {
+    font-size: 18px;
+    padding: 21px 0px;
+  }
+}
 @media (max-width: 450px) {
   .modal {
     min-height: 631px;
@@ -2234,6 +2254,9 @@ body.lock {
   }
   .modal__text {
     font-size: 17px;
+  }
+  .modal .btn {
+    font-size: 16px;
   }
 }
 .elips {

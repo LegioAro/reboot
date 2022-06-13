@@ -1,0 +1,16 @@
+.btn {
+  padding: 23.5px 42px;
+  background-color: #ff296d;
+  text-transform: uppercase;
+  width: fit-content;
+  font-size: 22.9194px;
+  line-height: 125%;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  .btn {
+    font-size: 16px;
+  }
+}

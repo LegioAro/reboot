@@ -1,0 +1,141 @@
+.about {
+  background-color: #01012a;
+  background-image: url(../img/about/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 20px 0 100px;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 540px;
+    z-index: 2;
+  }
+
+  &__decor {
+    position: absolute;
+    left: -355px;
+    top: -190px;
+    width: 860px;
+  }
+
+  &__list {
+    max-width: 570px;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__list-title {
+    font-size: 65px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #f7f500;
+    font-family: 'Futura PT Extra Italic', sans-serif;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+
+  &__list-items {
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .icon-hand {
+      font-size: 18.5px;
+      margin-right: 30px;
+    }
+  }
+
+  &__list-item-text {
+    font-size: 15px;
+    line-height: 145%;
+    span {
+      font-family: 'Gotham Pro Black', sans-serif;
+    }
+  }
+
+  &__name {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: right;
+    top: -85px;
+    right: 145px;
+    font-size: 121.798px;
+    line-height: 90%;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Futura PT Extra Italic', sans-serif;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+    text-stroke: 1px rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 1150px) {
+  .about {
+    &__img {
+      width: 440px;
+    }
+    &__decor {
+      width: 700px;
+      top: -100px;
+      left: -380px;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .about {
+    &__img {
+      width: 400px;
+    }
+    &__decor {
+      width: 650px;
+      top: -100px;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .about {
+    &__wrapper {
+      justify-content: flex-start;
+    }
+    &__img {
+      display: none;
+    }
+    &__decor {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    &__list-title {
+      font-size: 50px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .about {
+    &__list-title {
+      font-size: 40px;
+    }
+  }
+} ;

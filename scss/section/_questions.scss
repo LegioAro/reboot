@@ -1,0 +1,141 @@
+.questions {
+  background-color: #03032b;
+  padding: 110px 0 140px;
+
+  &__wrappper {
+    display: flex;
+    position: relative;
+  }
+
+  &__info {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__info-title {
+    width: fit-content;
+    font-size: 65px;
+    line-height: 110%;
+    color: #f7f500;
+    margin-bottom: 10px;
+    font-family: 'Futura PT Extra Italic', sans-serif;
+    position: relative;
+    &::after {
+      content: '';
+      background-image: url(../img/questions/decor.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 0 0;
+      position: absolute;
+      top: 50%;
+      right: -140px;
+      transform: translateY(-50%);
+      width: 75px;
+      height: 38px;
+    }
+  }
+
+  &__info-subtitle {
+    width: 100%;
+    max-width: 600px;
+    font-size: 23px;
+    line-height: 145%;
+    font-family: 'Gotham Pro Bold', sans-serif;
+    margin-bottom: 60px;
+  }
+
+  &__info-text {
+    position: relative;
+    padding: 30px 23px;
+    background-color: rgba(#fff, 0.1);
+    width: 100%;
+    max-width: 562px;
+    font-size: 17px;
+    line-height: 145%;
+    span {
+      font-family: 'Gotham Pro Bold', sans-serif;
+    }
+  }
+
+  &__info-decor {
+    position: absolute;
+    width: 43.5px;
+    height: 37px;
+    &-left {
+      border-left: 2px solid #05d8e8;
+      border-top: 2px solid #05d8e8;
+      top: 0;
+      left: 0;
+    }
+    &-right {
+      border-right: 2px solid #05d8e8;
+      border-bottom: 2px solid #05d8e8;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    width: 527px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 850px) {
+  .questions {
+    padding: 110px 0;
+    &__img {
+      width: 450px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .questions {
+    &__info-title {
+      &::after {
+        width: 50px;
+        height: 25px;
+        right: -100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .questions {
+    padding: 80px 0;
+    &__info-title {
+      font-size: 50px;
+      &::after {
+        display: none;
+      }
+    }
+    &__info-subtitle {
+      font-size: 18px;
+    }
+    &__info-text {
+      font-size: 16px;
+    }
+    &__img {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .questions {
+    &__info-title {
+      font-size: 40px;
+    }
+    &__info-subtitle {
+      font-size: 18px;
+    }
+    &__info-text {
+      font-size: 16px;
+    }
+  }
+}

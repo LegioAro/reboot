@@ -1517,7 +1517,8 @@ body.lock {
   line-height: 90%;
   text-align: right;
   text-transform: uppercase;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtra", sans-serif;
+  font-style: italic;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
   text-stroke: 1px rgba(255, 255, 255, 0.4);
   color: rgba(0, 0, 0, 0);

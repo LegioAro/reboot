@@ -372,8 +372,7 @@ body.lock {
 }
 .cover__timer-block {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 120px;
   position: relative;
   z-index: 3;
@@ -411,13 +410,16 @@ body.lock {
   width: 100%;
   max-width: 580px;
 }
+.cover .btn {
+  margin-bottom: 40px;
+}
 
 @media (max-width: 1050px) {
   .cover__decor {
     right: -100px;
   }
   .cover__timer-block {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: flex-start;
   }
   .cover .timer__wrapper {
@@ -524,9 +526,9 @@ body.lock {
   }
 }
 @media (max-width: 460px) {
-  .cover__dates {
-    flex-direction: column;
-    align-items: flex-start;
+  .cover__date {
+    margin-right: 20px;
+    padding-right: 0;
   }
   .cover__date::after {
     display: none;
@@ -546,7 +548,11 @@ body.lock {
     font-size: 60px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 374px) {
+  .cover__dates {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .cover__title-block-subtitle {
     font-size: 16px;
     margin-bottom: 10px;
@@ -1960,7 +1966,7 @@ body.lock {
   width: fit-content;
   font-size: 22.9194px;
   line-height: 125%;
-  font-family: "Gotham Pro Bold", sans-serif;
+  font-family: "GothamProBold", sans-serif;
   cursor: pointer;
 }
 
@@ -1979,7 +1985,7 @@ body.lock {
   align-items: center;
 }
 .timer__text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
   font-weight: 600;
   margin-right: 30px;
@@ -2028,7 +2034,7 @@ body.lock {
   transform: translateY(-65%);
 }
 
-@media (max-width: 620px) {
+@media (max-width: 850px) {
   .timer__wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -2036,10 +2042,15 @@ body.lock {
   .timer__text {
     margin-bottom: 15px;
     font-size: 18px;
-    width: 100%;
+    width: 50%;
   }
   .timer__text br {
     display: none;
+  }
+}
+@media (max-width: 650px) {
+  .timer__text {
+    width: 100%;
   }
 }
 @media (max-width: 420px) {
@@ -2096,7 +2107,7 @@ body.lock {
   line-height: 120%;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "FuturaPTExtraItalic", sans-serif;
   margin-bottom: 15px;
 }
 .modal__text {

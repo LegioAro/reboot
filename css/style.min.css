@@ -2066,6 +2066,9 @@ body.lock {
   .timer__text {
     width: 100%;
   }
+  .timer__label {
+    font-size: 15px;
+  }
 }
 @media (max-width: 420px) {
   .timer__number {

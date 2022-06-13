@@ -256,7 +256,7 @@ body.lock {
   width: fit-content;
 }
 .cover__title {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "Futura PT Extra Italic";
   font-size: 104.536px;
   line-height: 90%;
   color: #f7f500;
@@ -272,7 +272,7 @@ body.lock {
 .cover__title-bg p {
   -webkit-text-stroke: 1px #f7f500;
   text-stroke: 1px #f7f500;
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "Futura PT Extra Italic";
   font-size: 104.536px;
   line-height: 90%;
   color: rgba(0, 0, 0, 0);
@@ -284,7 +284,7 @@ body.lock {
   top: 11px;
 }
 .cover__title-shadow p {
-  font-family: "Futura PT Extra Italic", sans-serif;
+  font-family: "Futura PT Extra Italic";
   font-size: 104.536px;
   line-height: 90%;
   background: linear-gradient(180deg, #03032b 0%, rgba(255, 255, 255, 0) 100%);

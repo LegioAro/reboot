@@ -1475,7 +1475,7 @@ body.lock {
 .about__decor {
   position: absolute;
   left: -355px;
-  top: -190px;
+  top: -170px;
   width: 860px;
 }
 .about__list {
@@ -1553,10 +1553,28 @@ body.lock {
     justify-content: flex-start;
   }
   .about__img {
-    display: none;
+    left: auto;
+    right: 0;
+    max-width: 300px;
   }
   .about__decor {
     display: none;
+  }
+}
+@media (max-width: 880px) {
+  .about__img {
+    max-width: 250px;
+  }
+}
+@media (max-width: 820px) {
+  .about__img {
+    max-width: 300px;
+    right: auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .about__wrapper {
+    padding-bottom: 500px;
   }
 }
 @media (max-width: 500px) {
